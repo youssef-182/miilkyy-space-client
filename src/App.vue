@@ -1,8 +1,10 @@
 <template>
-	<side-bar/>
-	<main>
-  	<router-view/>
-	</main>
+	<div class="flex">
+		<side-bar/>
+		<main class="container">
+	  	<router-view/>
+		</main>
+	</div>
 </template>
 
 <script>
